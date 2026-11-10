@@ -1,0 +1,115 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Profiling and coverage
+*.prof
+*.pb.gz
+coverage
+*.lcov
+.nyc_output
+
+# Dependency and package-manager directories
+node_modules/
+jspm_packages/
+web_modules/
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Build and package outputs
+*.tsbuildinfo
+*.tgz
+dist
+.eslintcache
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.vscode-test
+/built
+
+# Native compiler outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.wasm
+*.test
+__debug_bin*
+*.out
+
+# Environment and editor files
+.env
+.env.*
+!.env.example
+.node_repl_history
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.template.json
+!**/.vscode/launch.template.json
+!**/.vscode/extensions.json
+.DS_Store
+.idea
+
+# Local agent and Codex workspaces
+.codex/
+.agents/
+.claude/
+.cursor/
+.windsurf/
+
+# Python local environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+
+# Local databases and generated demo data
+*.csv
+*.sqlite
+*.sqlite3
+*.sqlite3.bak
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-journal
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Next.js and production output
+.next/
+out/
+build/
+tests/
+test-results/
